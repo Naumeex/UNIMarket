@@ -1,0 +1,129 @@
+.firstPart {
+    height: 75vh;
+
+    background: #AA9261;
+
+    text-align: center;
+}
+
+.firstPart .informationBlock {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    font-size: 3em;
+
+    margin-left: -80px;
+
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding-top: 1em;
+
+    height: 80%;
+}
+
+.firstPart .informationMain {
+    display: flex;
+
+
+    align-items: center;
+
+    flex-direction: column;
+
+    width: 20em;
+}
+
+.firstPart .informationMain ul {
+    font-size: .3em;
+
+    list-style-type: none;
+    padding-top: 3em;
+
+    font-weight: 400;
+    width: 60em;
+}
+
+.firstPart .informationMain ul * {
+    color: #353535
+}
+
+.tittle-wh{
+    margin-bottom: 100px;
+}
+
+.uli-button{
+    width: 300px;
+    height: 60px;
+    background: #eaeaea;
+}
+
+.ulii{
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+}
+
+.first{
+    padding-bottom: 40px;
+}
+
+.other{
+    padding-bottom: 30px;
+}
+
+.ulOne{
+    padding-right: 2300px;
+}
+
+.informationMain{
+    text-align: center;
+}
+
+.logosBlock {
+    font-size: .35em;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    flex-direction: column;
+
+    padding-top: 3em
+}
+
+.logosBlock .logos {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logosBlock .information {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 1em;
+}
+
+.logosElement {
+    width: 10.3em;
+
+    text-align: center;
+}
+
+.logosElement img {
+    width: 5em;
+}
+
+.logosElement * {
+    color: #1A1A1C;
+}

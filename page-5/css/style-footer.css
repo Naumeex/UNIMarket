@@ -1,0 +1,88 @@
+.footerPart {
+    height: 80vh;
+    background: #C9C9C9;
+    }
+    
+    .footerPart * {
+    color: #000000
+    }
+    
+    .footerPart .footerBlock {
+    display: flex;
+    }
+    
+    .footerPart .address {
+    width: 20em;
+    
+    font-weight: 400;
+    }
+    
+    .footerPart .phone {
+    padding-top: 1em;
+    
+    font-size: 2em;
+    }
+    
+    .footerPart .phone * {
+    color: #353535;
+    }
+    
+    .footerBlock {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    text-transform: uppercase;
+    
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    
+    padding: 5em;
+    padding-bottom: 15em;
+    }
+    
+    .footerBlock ul {
+    list-style-type: none;
+    }
+    
+    .footerBlock ul li {
+    padding-top: .3em;
+    }
+    
+    .footerBlock .footerElementTitle {
+    padding-bottom: 1em;
+    }
+    
+    .footerLogo {
+    padding-bottom: 3em;
+    }
+    
+    .ancillaryInformation {
+    padding-right: 5em;
+    padding-left: 5em;
+    
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    
+    font-size: .8em;
+    
+    color: black;
+    }
+    
+    .ancillaryInformationElement {
+    padding-top: .5em;
+    }
+    
+    .ancillaryInformationTitle {
+    font-size: 1.5em;
+    
+    padding-bottom: 1em;
+    }
+    
+    .darkOver {
+    height: 10vh;
+    
+    background: #353535;
+    }
+    

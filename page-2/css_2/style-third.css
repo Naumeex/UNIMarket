@@ -1,0 +1,74 @@
+.thirdPart {
+    background: #353535;
+
+    height: 35vh;
+
+    text-transform: uppercase;
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.thirdPart .partTitle {
+    font-size: 3em;
+
+    text-align: center;
+
+    padding-top: 1em;
+}
+
+.thirdPart .partTags {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 99vw;
+
+    padding-top: 1em;
+}
+
+.formmm-inp{
+    width: 360px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+
+.formmm{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 15%;
+}
+
+.formmm input::placeholder{
+    color: #C4C4C4;
+}
+
+.frm-btn{
+    height: 40px;
+}
+
+.thirdPart .partTags p {
+    color: #AA9261;
+
+    text-align: center;
+
+    width: 50em;
+}
+
+.thirdPart .partImages {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2em
+}
+
+
+.thirdPart .partImages img {
+    padding-left: 1em;
+    padding-right: 1em;
+}

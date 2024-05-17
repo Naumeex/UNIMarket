@@ -1,0 +1,125 @@
+.secondPart {
+    background: #EAEAEA;
+
+    text-transform: uppercase;
+
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+
+    height: 90vh;
+}
+
+.secondPart * {
+    color: #353535;
+}
+
+.secondPartTitle {
+    text-align: center;
+
+    padding-top: 7vh;
+}
+
+.secondPartTitle h1 {
+    font-weight: 400;
+}
+
+.priceCardContainer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4em;
+}
+
+.priceCardPart {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+
+    z-index: 1;
+}
+
+.priceCardBlock {
+    background: #EAEAEA;
+    width: 22em;
+    height: 30em;
+    /* Указываем желаемую высоту */
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 5px 10px 10px -4px #1a1a1c74, -10px -10px 10px -4px rgba(255, 255, 255, 0.6);
+    display: flex;
+    /* Добавляем для использования flexbox */
+    flex-direction: column;
+    /* Устанавливаем направление элементов в столбец */
+}
+
+.priceCardCost {
+    font-size: 2em;
+
+    padding-bottom: .5em;
+}
+
+.priceCardInformation {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.priceCardBlock hr {
+    border: #C4C4C4 1px solid;
+}
+
+.priceCardFeatures {
+    padding-top: 1em;
+
+    font-size: .87em;
+}
+
+.priceCardFeatures li {
+    padding-bottom: .8em;
+}
+
+
+.priceCardStartBlock {
+    display: flex;
+    justify-content: center;
+    /* Равномерно распределяем кнопки по горизонтали */
+    align-items: center;
+    margin-top: auto;
+    /* Размещаем кнопки внизу блока */
+}
+
+.priceCardStart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.priceCardStart .button {
+    width: 100%;
+
+    text-align: center;
+
+    font-weight: 600;
+}
+
+
+.wavesPart {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 90vh;
+    width: 99vw;
+
+    position: absolute;
+}
+
+.wavesPart img {
+    z-index: 0;
+}

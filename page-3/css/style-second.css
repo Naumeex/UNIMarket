@@ -1,0 +1,160 @@
+.secondPart {
+    background: #EAEAEA;
+    background-image: url(../images/WAVES.png);
+    background-repeat: no-repeat;
+    background-position-y:25%;
+    background-size: 100%;
+
+    text-transform: uppercase;
+
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+
+    height: 200vh;
+}
+
+.secondPart * {
+    color: #353535;
+}
+
+.secondPartTitle {
+    text-align: center;
+
+    padding-top: 7vh;
+}
+
+.secondPartTitle h1 {
+    font-weight: 400;
+}
+
+.priceCardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 4em;
+}
+
+.priceCardPart {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    width: 80%;
+
+    z-index: 1;
+}
+
+.priceCardBlock {
+    background: #EAEAEA;
+    width: 90em;
+    height: 24em;
+    /* Указываем желаемую высоту */
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow: 5px 10px 10px -4px #1a1a1c74, -10px -10px 10px -4px rgba(255, 255, 255, 0.6);
+    display: flex;
+    /* Добавляем для использования flexbox */
+    flex-direction: column;
+    margin-bottom: 60px;
+    /* Устанавливаем направление элементов в столбец */
+}
+
+.priceCardCost {
+    font-size: 2em;
+
+    padding-bottom: .5em;
+}
+
+.imagePeople{
+    position: absolute;
+    padding-left: 1000px;
+    
+    
+}
+
+.pz{
+    text-align: center;
+    list-style: none;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.priceCardInformation {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.priceCardBlock hr {
+    border: #C4C4C4 1px solid;
+    width: 70%;
+}
+
+.priceCardFeatures {
+    padding-top: 1em;
+    width: 60%;
+    font-size: .87em;
+}
+
+.priceCardFeatures li {
+    padding-bottom: .8em;
+}
+
+
+.priceCardStartBlock {
+    display: flex;
+    justify-content: center;
+    /* Равномерно распределяем кнопки по горизонтали */
+    align-items: center;
+    margin-top: auto;
+    /* Размещаем кнопки внизу блока */
+}
+
+.priceCardStart {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.priceCardStart .button {
+    width: 20%;
+
+    text-align: center;
+
+    font-weight: 600;
+}
+
+.priceCardStart .button::hover{
+    background-color: #ebca8a;
+}
+
+.ulOne{
+    text-align: left;
+}
+
+.wavesPart {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-top: 1100px;
+
+    height: 90vh;
+    width: 99vw;
+
+    position: absolute;
+
+    
+}
+
+
+
+.wavesPart img {
+    z-index: 0;
+}

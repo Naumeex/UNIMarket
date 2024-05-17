@@ -1,0 +1,52 @@
+section {
+    
+    display: flex;
+     padding: 0 5vw 0 5vw;
+     height: 80%;
+     /* align-content: center; */
+     justify-content: center;
+     align-items: center;
+    flex-wrap: wrap;
+}
+
+.headerPart .informationBlock {
+    position: relative;
+
+    height: 23em;
+    width: fit-content;
+
+    border-radius: .1em;
+    padding: 2em;
+
+    z-index: 2;
+    text-align: center;
+}
+
+.informationBlock {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.headerPart .informationMain {
+    font-size: 1.8em;
+
+    text-align: left;
+}
+
+.informationBlock ul {
+    padding: 1em 0em 0em 1em;
+
+    font-weight: 100;
+
+    list-style-type: symbols('•' '•');
+}
+
+.informationBlock ul li {
+    font-size: 1.3em;
+
+    font-weight: 400;
+}
+
+.informationBlock .button {
+    padding: 20px 30px;
+}

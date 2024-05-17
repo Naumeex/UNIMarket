@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+
+
+
+html, body {
+    background: black;
+}
+
+/* Other */
+.Logo {
+    width: 300px;
+}
+
+.button {
+    display: inline-block;
+
+    background: #AA9261;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: .9em;
+    border-color: #AA9261;
+    text-transform: uppercase;
+}
+
+.button-2 {
+    display: inline-block;
+
+    background: #fdfdfd;
+    padding: 20px 50px;
+    font-weight: 500;
+    font-size: .9em;
+
+    text-transform: uppercase;
+}
+
+.button p {
+    color: rgb(0, 0, 0);
+}
+
+.button:hover {
+    cursor: pointer;
+    user-select: none;
+}

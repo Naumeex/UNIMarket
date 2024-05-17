@@ -1,0 +1,158 @@
+.actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    box-shadow: 0px 0px 100px 70px black;
+}
+
+.headerPart {
+    background-image: url(../images/BACK.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 99vw;
+    position: relative;
+
+    color: white;
+}
+
+.buildImage {
+    position: absolute;
+    right: 0;
+    width: 93vh;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.headerPart header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 1.3em 0 0 0;
+    position: relative;
+
+    z-index: 2;
+}
+
+.Logo {
+    width: 300px;
+}
+
+.headerPart .headerElement {
+    display: flex;
+}
+
+.headerPart .headerSubElement {
+    padding: 0 40px;
+}
+
+.headerPart a {
+    text-decoration: none;
+    color: white;
+}
+
+.headerPart .headerElement ul {
+    display: flex;
+}
+
+.headerPart .headerElement ul li {
+    padding: 0 5px;
+    list-style: none;
+}
+
+.head-scr{
+    text-align: center;
+    width: 150%;
+}
+
+.chain-cardBlock{
+    background: #2C2C2C;
+    width: 280px;
+    height: 180px;
+    /* Указываем желаемую высоту */
+    padding: 2em;
+    border: 1px solid #AA9261;
+    border-radius: 2em;
+    display: flex;
+    /* Добавляем для использования flexbox */
+    flex-direction: column;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 180px;
+}
+
+
+.chain-cardBlock-2{
+    background: #2C2C2C;
+    width: 280px;
+    height: 180px;
+    /* Указываем желаемую высоту */
+    padding: 2em;
+    border: 1px solid #AA9261;
+    border-radius: 2em;
+    display: flex;
+    /* Добавляем для использования flexbox */
+    flex-direction: column;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 680px;
+}
+
+
+
+
+
+.chain-cardBlock-3{
+    background: #2C2C2C;
+    width: 280px;
+    height: 180px;
+    /* Указываем желаемую высоту */
+    padding: 2em;
+    border: 1px solid #AA9261;
+    border-radius: 2em;
+    display: flex;
+    /* Добавляем для использования flexbox */
+    flex-direction: column;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1200px;
+}
+
+
+.ch-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.chain{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.chainn{
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 450px;
+    width: 8.8%;
+ 
+}
+
+
+.chainn2{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: 450px;
+    width: 9.9%;
+ 
+}
+
+
